@@ -1,0 +1,21 @@
+CREATE OR REPLACE TABLE reto-job-prep-mj.dataset_reto.citybike_trips_limpia AS
+SELECT
+    1 AS uno_en_fila,
+    tripduration,
+    starttime,
+    stoptime,
+    start_station_id,
+    start_station_name,
+    end_station_id,
+    end_station_name,
+    bikeid,
+    usertype,
+    birth_year,
+    gender,
+    EXTRACT(YEAR FROM TIMESTAMP(starttime)) AS ano_viaje,
+  FROM
+    bigquery-public-data.new_york_citibike.citibike_trips
+  WHERE
+    starttime IS NOT NULL AND stoptime IS NOT NULL
+    AND tripduration <= 86400--mas de un día se considera la bicicleta como robada
+    ORDER BY starttime;
