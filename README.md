@@ -40,3 +40,7 @@ The dataset, publicly accessible and hosted on Google BigQuery, offers extensive
   - As the usage decreases on weekends among subscribed groups, there are available bicycles to further encourage tourist usage of this mode of transportation.
   - There is potential for growth in female users. One growth opportunity is to incentivize the use of the system. It is recommended to interview current female users to inquire about aspects for improvement that may have been overlooked due to cultural gender bias, and to advance proposals to make this system more inclusive.
   - Finally, it is suggested to incorporate more gender identity options (in addition to female and male) to better understand the user and embrace diversity.
+
+### For a more in-depth view of the analysis results, click [here](https://lookerstudio.google.com/reporting/09c6e4ad-9c1b-455a-92fc-b7c22eeef7c1) to access the interactive dashboard.
+
+
