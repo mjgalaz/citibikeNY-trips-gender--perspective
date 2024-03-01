@@ -4,6 +4,7 @@ This analysis delves into understanding gender-based disparities in Citibike usa
 ### Dataset Overview
 The dataset, publicly accessible and hosted on Google BigQuery, offers extensive insights into Citibike bicycle trips spanning from July 2013 to May 2018. It contains crucial trip details, such as duration, start and end stations, user gender, subscription type, timestamps, and other relevant information. You can access the dataset used for this analysis by clicking [here](https://console.cloud.google.com/marketplace/product/city-of-new-york/nyc-citi-bike?project=data-sandbox-319716).
 
+The cleaning of the original table was performed using the query saved at the following [link](https://github.com/mjgalaz/citibikeNY-trips-gender--perspective/blob/main/dataset_clean_SQL), resulting in the creation of the citybike_trips_clean table, which serves as the foundation for this analysis.
 
 ### Analysis Highlights
 #### 1. Overall Trends
@@ -38,6 +39,6 @@ The dataset, publicly accessible and hosted on Google BigQuery, offers extensive
  ### Dashboard
   ![](https://raw.githubusercontent.com/mjgalaz/citibikeNY-trips-gender--perspective/main/dashboard.png)
   
- For a more in-depth view of the analysis results, click [here](https://lookerstudio.google.com/reporting/09c6e4ad-9c1b-455a-92fc-b7c22eeef7c1) to access the interactive dashboard.
+ #### For a more in-depth view of the analysis results, click [here](https://lookerstudio.google.com/reporting/09c6e4ad-9c1b-455a-92fc-b7c22eeef7c1) to access the interactive dashboard.
 
 
