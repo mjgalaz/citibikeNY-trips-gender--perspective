@@ -2,7 +2,8 @@
 This analysis delves into understanding gender-based disparities in Citibike usage patterns, routes, station preferences, and trip durations. The insights are derived from an extensive examination of a publicly available dataset hosted on Google BigQuery. Data processing, cleaning, and organization were meticulously executed using SQL within BigQuery's robust environment. Subsequently, visualization of the findings was facilitated using LookerStudio.
 
 ### Dataset Overview
-The dataset, publicly accessible and hosted on Google BigQuery, offers extensive insights into Citibike bicycle trips spanning from July 2013 to May 2018. It comprises crucial trip details, such as trip duration, start and end stations, user gender, subscription type, trip timestamps, and others.
+The dataset, publicly accessible and hosted on Google BigQuery, offers extensive insights into Citibike bicycle trips spanning from July 2013 to May 2018. It contains crucial trip details, such as duration, start and end stations, user gender, subscription type, timestamps, and other relevant information. You can access the dataset used for this analysis by clicking [here](https://console.cloud.google.com/marketplace/product/city-of-new-york/nyc-citi-bike?project=data-sandbox-319716).
+
 
 ### Analysis Highlights
 #### 1. Overall Trends
